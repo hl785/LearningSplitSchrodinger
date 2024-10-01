@@ -3,7 +3,7 @@ from torch.utils import data
 from scipy.sparse.linalg import expm
 import copy
 
-import basicWellSRC.model as md
+import model as md
 import expsolve.fourier as fe           # Version 0.0.7
 
 # ----------------------
@@ -121,7 +121,7 @@ class Dataset(data.IterableDataset):
 
     def __iter__(self):
         current = self.initData
-        stop = 10**4    # Set to -1 for inf data
+        stop = 10**6    # Set to -1 for inf data
         index = 0
         while True:
             components = [[] for _ in range(5)]

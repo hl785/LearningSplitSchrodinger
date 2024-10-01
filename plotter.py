@@ -5,7 +5,7 @@ import matplotlib.patches as mpatches
 import json
 import os.path
 
-import basicWellSRC.model as md
+import model as md
 import expsolve.fourier as fe
 
 # ----------------------

@@ -11,9 +11,9 @@ from torch.utils.tensorboard import SummaryWriter
 import time
 import optax
 
-import basicWellSRC.model as md
-import basicWellSRC.dataGen as dg
-import basicWellSRC.plotter as pt
+import model as md
+import dataGen as dg
+import plotter as pt
 
 ### ----------------------
 ### ----- Parameters -----
