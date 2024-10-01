@@ -1,0 +1,5 @@
+__pycache__
+mainTrain.err
+mainTrain.out
+params.json
+ParamLossEvolution.svg
